@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-image: url("ball.jpg");
+    background-size: cover;
+}
+
+.main {
+    width: 600px;
+    margin: 50px auto;
+    background: #1B244A;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    color: #EEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.display {
+    border: 1px solid black;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #F94F6D;
+    background: #080001;
+    border-radius: 20px; 
+}
+
+.btn {
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    background: #1B244A;
+    padding: 5px 12px
+}
+
+.newGame {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: white;
+    font-weight: bold
+}
